@@ -11,7 +11,7 @@ const Header = () => {
       }, [])
   return (
     // The FIXED BACKGROUND DIV
-    <div className="fixed top-0 left-0 headerClass px-2 w-full">
+    <div className="fixed top-0 left-0 headerClass px-5 w-full">
       {/* THE MOTION PARENT DIV */}
       <div data-aos="fade-down" className="flex justify-between items-center">
         {/* THE LOGO DIV */}
