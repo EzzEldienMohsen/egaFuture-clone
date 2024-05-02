@@ -14,8 +14,8 @@ const Header = () => {
     <div 
     data-aos="fade-down"
     data-aos-debug="true"
-    data-aos-duration="4000"
-    className="flex fixed top-0 left-0 headerClass px-5 w-full justify-between items-center"
+    data-aos-duration="2000"
+    className="flex fixed z-10 top-0 left-0 headerClass px-5 w-full justify-between items-center"
     >
       {/* THE MOTION PARENT DIV */}
     

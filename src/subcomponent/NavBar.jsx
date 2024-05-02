@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <ul className="list-none font-man w-2/3 hidden lg:flex justify-between items-center gap-6">
+    <ul className="list-none font-lato w-2/3 hidden lg:flex justify-between items-center gap-6">
       {headerLinks.map((li, index) => {
         return (
           <Link key={li.text} to={li.to}>
