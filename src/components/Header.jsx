@@ -11,17 +11,22 @@ const Header = () => {
       }, [])
   return (
     // The FIXED BACKGROUND DIV
-    <div className="fixed top-0 left-0 headerClass px-5 w-full">
+    <div 
+    data-aos="fade-down"
+    data-aos-debug="true"
+    data-aos-duration="4000"
+    className="flex fixed top-0 left-0 headerClass px-5 w-full justify-between items-center"
+    >
       {/* THE MOTION PARENT DIV */}
-      <div data-aos="fade-down" className="flex justify-between items-center">
+    
         {/* THE LOGO DIV */}
-        <Logo/>
+        <Logo />
         {/* NAV BAR */}
-        <NavBar/>
+        <NavBar />
         {/* Menu */}
-        <Menu/>
+        <Menu />
       </div>
-    </div>
+    
   );
 };
 
