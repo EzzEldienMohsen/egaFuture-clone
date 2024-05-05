@@ -48,3 +48,25 @@ export const sDiv = [
       'https://assets-global.website-files.com/575edfeea4bf5b9f21de5618/57829a584a3a560c48f34215_software-facturacion_seguro.png',
   },
 ];
+export const rows = [
+  {
+    id: 1,
+    title: '# 1',
+    text: 'Estamos en el Puesto 1 en Softonic desde hace nueve años ininterrumpidos',
+  },
+  {
+    id: 2,
+    title: '24x7',
+    text: 'Desde nuestra plataforma ofrecemos soporte técnico todos los días',
+  },
+  {
+    id: 3,
+    title: '+60.000',
+    text: 'Más de sesenta mil PyMEs implementan nuestro software todos los años',
+  },
+  {
+    id: 4,
+    title: '1994',
+    text: 'Desde hace más de 29 años potenciamos a las Empresas de Iberoamérica',
+  },
+];

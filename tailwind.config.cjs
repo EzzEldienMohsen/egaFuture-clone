@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       boxShadow: {
-        gray: 'inset 0 -2px 40px 2px rgba(0,0,0,.15)',
+        gray: 'inset 20 20px 40px 20px rgba(0,0,0,.15)',
       },
     },
     fontFamily: {
