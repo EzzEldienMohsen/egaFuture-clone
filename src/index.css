@@ -29,3 +29,47 @@ background-image: linear-gradient(135deg,rgba(0,118,179,.84),transparent 71%);
 .num{
   background-image: linear-gradient(90deg,#2a94d6,#4473bd 42%,#144c77);
 }
+.illusion{
+  opacity: 1; /* Ensure section is fully visible */
+  background-color: #fff; /* Set background color */
+  background-image: 
+    linear-gradient(33deg, rgba(102, 45, 140, .95) 37%, rgba(234, 73, 73, .2)), /* First gradient */
+    linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), /* Second gradient */
+    linear-gradient(90deg, transparent 63%, rgba(234, 73, 73, .7)), /* Third gradient */
+    url("https://assets-global.website-files.com/575edfeea4bf5b9f21de5618/579684fc9f0c9d5e03cd2eb7_software-administracion-pymes-nube.jpg"); /* Background image */
+  background-position: 
+    0 0, /* Position for first gradient */
+    0 0, /* Position for second gradient */
+    0 0, /* Position for third gradient */
+    50% 0; /* Position for background image */
+  background-size: 
+    auto, /* Auto size for first gradient */
+    auto, /* Auto size for second gradient */
+    auto, /* Auto size for third gradient */
+    cover; /* Cover size for background image */
+  background-attachment: 
+    scroll, /* Allow scrolling for first gradient */
+    scroll, /* Allow scrolling for second gradient */
+    scroll, /* Allow scrolling for third gradient */
+    fixed; /* Fixed background image */
+  padding-top: 210px; /* Add top padding */
+  padding-bottom: 200px; /* Add bottom padding */
+  font-family: 'Lato', sans-serif; /* Set font family */
+  position: relative; /* Set position to relative */
+  box-shadow: inset 0 0 75px 7px rgba(0, 0, 0, .33); /* Add inset shadow */
+}
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.illusion h2 {
+  animation: moveUp 3s ease infinite; /* Apply animation to the h2 element */
+}

@@ -5,7 +5,10 @@ const Landing = () => {
     <>
       <LandingHero />
       <Separator />
-     <Rows/>
+      <Rows />
+      <div className="illusion ]">
+        <h2> hi there </h2>
+      </div>
     </>
   );
 };
