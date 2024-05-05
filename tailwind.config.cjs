@@ -3,7 +3,11 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        gray: 'inset 0 -2px 40px 2px rgba(0,0,0,.15)',
+      },
+    },
     fontFamily: {
       lato: ['Lato,sans-serif', 'sans-serif'],
     },
