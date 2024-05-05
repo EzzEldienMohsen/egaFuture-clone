@@ -1,4 +1,4 @@
-import { LandingHero, Rows, Separator } from '../subcomponent';
+import { Illusion, LandingHero, Rows, Separator } from '../subcomponent';
 
 const Landing = () => {
   return (
@@ -6,9 +6,7 @@ const Landing = () => {
       <LandingHero />
       <Separator />
       <Rows />
-      <div className="illusion ]">
-        <h2> hi there </h2>
-      </div>
+      <Illusion/>
     </>
   );
 };

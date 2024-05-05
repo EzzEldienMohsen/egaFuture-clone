@@ -24,7 +24,7 @@ background-color: rgba(44,62,80,.24);
 background-image: linear-gradient(135deg,rgba(0,118,179,.84),transparent 71%);
 }
 .the-shadow {
-  box-shadow: inset 20 20px 40px 20px rgba(0,0,0,.15) !important;
+  box-shadow: inset 0 -2px 40px 2px rgba(0,0,0,.15) !important;
 }
 .num{
   background-image: linear-gradient(90deg,#2a94d6,#4473bd 42%,#144c77);

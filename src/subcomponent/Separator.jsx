@@ -2,7 +2,7 @@ import { sDiv, win } from '../assets';
 
 const Separator = () => {
   return (
-    <div className="bg-[#d8c5c5] shadow-gray the-shadow flex md:flex-col lg:flex-row py-3 px-6 justify-evenly md:justify-start lg:justify-between items-center md:items-start lg:items-center overflow-x-hidden">
+    <div className="bg-[#d8c5c5] the-shadow flex md:flex-col lg:flex-row py-3 px-6 justify-evenly md:justify-start lg:justify-between items-center md:items-start lg:items-center overflow-x-hidden">
       <div className="flex flex-col h-[235px] md:h-auto md:flex-row justify-between md:my-4 lg:my-0 lg:justify-evenly  md:w-11/12 lg:w-1/2 md:justify-between md:items-center">
         {win.map((l) => {
           return (
@@ -29,6 +29,6 @@ const Separator = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Separator
+export default Separator;
