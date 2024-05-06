@@ -9,7 +9,7 @@ const LandingHero = () => {
   return (
     <div className="h-[60vh] md:h-[120vh] lg:h-auto flex relative flex-col justify-evenly items-center w-full landing-hero py-12 md:py-20 lg:py-32">
       <h1
-        data-aos="fade-up"
+        data-aos="fade-up-left"
         data-aos-debug="true"
         data-aos-duration="2000"
         className="text-[#FFFFFFF2] mt-8 md:mt-4 lg:mt-0 lg:w-4/5 text-3xl md:text-5xl lg:text-7xl text-center font-lato font-bold"
@@ -17,7 +17,7 @@ const LandingHero = () => {
         Software de Gestión Empresarial
       </h1>
       <p
-        data-aos="fade-down"
+        data-aos="fade-down-right"
         data-aos-debug="true"
         data-aos-duration="2000"
         className="the-para-shade mb-[120px] my-6 md:mb-6 text-lg font-bold font-lato md:text-xl lg:text-2xl px-8 py-6 w-5/6 md:w-3/5 text-center text-white"

@@ -76,3 +76,11 @@ background-image: linear-gradient(135deg,rgba(0,118,179,.84),transparent 71%);
 .grid-section {
   background-image: linear-gradient(178deg,transparent 79%,rgba(89,51,127,.12)),linear-gradient(rgba(255,255,255,.96),rgba(255,255,255,.96));
 }
+.blue {
+    background-color: #fff;
+    background-image: linear-gradient(121deg, #202370 41%, rgba(37, 143, 126, .7)), url("https://assets-global.website-files.com/575edfeea4bf5b9f21de5618/57968568158327dc23ecced3_sistema-ventas-erp-crm-pymes.jpg");
+    background-position: 0 0, 50%;
+    background-size: auto, cover;
+    padding-top: 140px;
+    padding-bottom: 160px;
+}
