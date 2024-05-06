@@ -1,4 +1,4 @@
-import { Illusion, LandingHero, Rows, Separator } from '../subcomponent';
+import { GridElement, Illusion, LandingHero, Rows, Separator } from '../subcomponent';
 
 const Landing = () => {
   return (
@@ -6,7 +6,8 @@ const Landing = () => {
       <LandingHero />
       <Separator />
       <Rows />
-      <Illusion/>
+      <Illusion />
+      <GridElement/>
     </>
   );
 };
