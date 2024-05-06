@@ -2,7 +2,7 @@ import { rows } from '../assets';
 
 const Rows = () => {
   return (
-    <div className="num flex flex-col md:flex-row px-6 py-6 justify-between mb-2 md:mb-0 items-center">
+    <div className="num flex flex-col md:flex-row px-6 py-6 justify-between items-center">
       {rows.map((r) => {
         return (
           <div key={r.id} className="font-lato text-center gap-2 text-white">
