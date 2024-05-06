@@ -119,3 +119,41 @@ export const gridElements = [
 ];
 export const gridCheckMark =
   'https://assets-global.website-files.com/575edfeea4bf5b9f21de5618/575edfeea4bf5b9f21de56ae_Icon-check-green.png';
+
+  export const arr = [
+    {
+      id: 1,
+      num: '07',
+      year: '2023',
+      title: '🔥 Nuevo!',
+      text: 'Ediciones Starter y Team: Acceso a Productos, Listas de precios y Pedidos',
+    },
+    {
+      id: 2,
+      num: '03',
+      year: '2023',
+      title: '🔥 Nuevo!',
+      text: 'Nueva Barra de utilidades!',
+    },
+    {
+      id: 3,
+      num: '10',
+      year: '2022',
+      title: '🔥 Nuevo!',
+      text: 'Monitoreo de nuestro servicio desde status.EGAFutura.com',
+    },
+  ];
+  export const arrFooter = [
+    {
+      id: 1,
+      title: '🎓 Ayuda',
+      text: 'Videos de Informes, Paneles de informacion y Business Intelligence',
+      year: '2022',
+    },
+    {
+      id: 2,
+      title: '🎓 Ayuda',
+      text: '5 nuevos videos sobre como es la Interfaz de usuario!',
+      year: '2022',
+    },
+  ];

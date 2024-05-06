@@ -1,3 +1,4 @@
+import { ComplexComponent } from '../components';
 import { BlueSection, GridElement, Illusion, LandingHero, Rows, Separator } from '../subcomponent';
 
 const Landing = () => {
@@ -9,6 +10,7 @@ const Landing = () => {
       <Illusion />
       <GridElement />
      <BlueSection/>
+     <ComplexComponent/>
     </>
   );
 };
