@@ -157,3 +157,95 @@ export const gridCheckMark =
       year: '2022',
     },
   ];
+  export const cards = [
+    {
+      id: 1,
+      image:
+        'https://assets-global.website-files.com/575ef60509a5a7a9116d9f8c/604a4acbab5f699f69572200_EGA%20Futura%20Habitat%20512.png',
+      bgColor: '#abddde',
+      bColor: '#1eaf64',
+      title: 'Nivel Intermedio',
+      titleColor: '#ffd000',
+      text: 'Cómo funcionan las notificaciones en la campana de notificaciones?',
+      hText:
+        'En este tutorial aprenderás todo sobre la funcionalidad de la campana o notification bell, el panel de notificaciones que aparece debajo de dicho botón y tarjetas emergentes.',
+      year: '2023',
+      btn: 'Ver tutorial',
+      hiddenDiv: 'fCard',
+    },
+    {
+      id: 2,
+      image:
+        'https://assets-global.website-files.com/575ef60509a5a7a9116d9f8c/604a846c8b5cab90b0cf05d6_EGA%20Futura%20512.png',
+      bgColor: '#144c77',
+      bColor: '#008bc9',
+      title: 'Nivel Introductorio',
+      titleColor: '#46C438',
+      text: 'Cómo funciona el motor de búsqueda global de la Plataforma EGA Futura?',
+      hText:
+        'En este tutorial aprenderás como utilizar el motor de búsqueda de la Plataforma EGA Futura.',
+      year: '2023',
+      btn: 'Ver tutorial',
+      hiddenDiv: 'sCard',
+    },
+    {
+      id: 3,
+      image:
+        'https://assets-global.website-files.com/575ef60509a5a7a9116d9f8c/604a846c8b5cab90b0cf05d6_EGA%20Futura%20512.png',
+      bgColor: '#144c77',
+      bColor: '#008bc9',
+      title: 'Nivel Introductorio',
+      titleColor: '#46C438',
+      text: 'Qué es la Plataforma EGA Futura?',
+      hText:
+        'En este tutorial hacemos un repaso por los principales aspectos de la plataforma. Ideal para usuarios nuevos que necesiten dar los primeros pasos.',
+      year: '2023',
+      btn: 'Ver tutorial',
+      hiddenDiv: 'sCard',
+    },
+    {
+      id: 4,
+      image:
+        'https://assets-global.website-files.com/575ef60509a5a7a9116d9f8c/604a8441557440d323ca230b_EGA%20Futura%20Base%20de%20datos%20512.png',
+      bgColor: '#a3d5df',
+      bColor: '#48a1b1',
+      title: 'Nivel Introductorio',
+      titleColor: '#ffd000',
+      text: 'Cómo se organiza la Base de datos en EGA Futura? Qué son los Objetos, Registros y Campos?',
+      hText:
+        'En este tutorial vas a aprender cómo se organiza, se almacena y se organiza la información dentro de la Plataforma EGA Futura, y cuáles son sus principales componentes (Organización, Aplicación, Objeto, Campo y Registro).',
+      year: '2023',
+      btn: 'Ver tutorial',
+      hiddenDiv: 'foCard',
+    },
+    {
+      id: 5,
+      image:
+        'https://assets-global.website-files.com/575ef60509a5a7a9116d9f8c/604a8441557440d323ca230b_EGA%20Futura%20Base%20de%20datos%20512.png',
+      bgColor: '#a3d5df',
+      bColor: '#48a1b1',
+      title: 'Nivel Experto',
+      titleColor: '#e63f17',
+      text: 'Cómo importar información a EGA Futura?',
+      hText:
+        'Aprende como importar información a la base de datos en la nube de EGA Futura',
+      year: '2023',
+      btn: 'Ver tutorial',
+      hiddenDiv: 'foCard',
+    },
+    {
+      id: 6,
+      image:
+        'https://assets-global.website-files.com/575ef60509a5a7a9116d9f8c/604a7ed30089793daee82291_EGA%20Futura%20Inventory%20512.png',
+      bgColor: '#26b7d4',
+      bColor: '#26b7d4',
+      title: 'Nivel Avanzado',
+      titleColor: '#ee7320',
+      text: 'Cómo crear un Pedido paso a paso desde cero en EGA Futura?',
+      hText:
+        'Cómo crear un pedido desde cero y conocer todos los elementos involucrados, saber cómo funciona cada campo y las relaciones con Listas de precios, Productos, Divisas, etc.',
+      year: '2023',
+      btn: 'Ver tutorial',
+      hiddenDiv: 'siCard',
+    },
+  ];
