@@ -8,7 +8,7 @@ const Cards = () => {
         return (
           <div
             key={card.id}
-            className={`${card.div} h-[420px] w-full md:w-auto relative my-6 md:my-0`}
+            className={`${card.div} h-[600px] w-full md:w-auto relative my-6 md:my-0`}
           >
             <motion.div
               variants={longDiv}
@@ -17,7 +17,7 @@ const Cards = () => {
               className={`${card.hiddenDiv} absolute bottom-0 left-0 w-full flex flex-col justify-between items-center `}
             >
               <div
-                className={`${card.titleDiv} text-center font-lato text-md md:text-lg lg:text-xl text-white font-normal tracking-wide w-full py-2  `}
+                className={`${card.titleDiv} text-center font-lato text-md md:text-lg lg:text-xl text-white font-normal tracking-wide w-full py-2 px-4  `}
               >
                 {card.title}
               </div>
@@ -30,7 +30,7 @@ const Cards = () => {
                 whileHover={hiddenPara.final}
                 className="flex flex-col justify-between items-center relative w-full h-[300px]"
               >
-                <div className="text-black px-4 text-xs md:text-sm lg:text-md font-lato font-thin">
+                <div className="text-black px-4  text-xs md:text-sm lg:text-md font-lato font-thin">
                   {card.hText}
                 </div>
                 <button className="button">{card.btn}</button>
