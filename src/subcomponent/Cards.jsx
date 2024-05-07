@@ -1,10 +1,21 @@
 import { motion } from 'framer-motion';
 import { cards, hiddenPara, longDiv, yearVariant } from '../assets';
+import React from 'react';
+import AOS from 'aos';
 
 const Cards = () => {
+  React.useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="flex flex-col justify-center items-center px-4 py-4 md:grid md:grid-cols-3 md:px-2 lg:px-6 md:gap-4 lg:gap-6 ">
-      {cards.map((card)=>{
+    <div
+      data-aos="flip-up"
+      data-aos-debug="true"
+      data-aos-duration="3000"
+      data-aos-anchor-placement="top-bottom"
+      className="flex flex-col justify-center items-center px-4 py-4 md:grid md:grid-cols-3 md:px-2 lg:px-6 md:gap-4 lg:gap-6 "
+    >
+      {cards.map((card) => {
         return (
           <div
             key={card.id}
@@ -30,7 +41,7 @@ const Cards = () => {
                 whileHover={hiddenPara.final}
                 className="flex flex-col justify-between items-center relative w-full h-[300px]"
               >
-                <div className="text-black px-4  text-xs md:text-sm lg:text-md font-lato font-thin">
+                <div className="text-black px-4 text-xs md:text-sm lg:text-md font-lato font-thin">
                   {card.hText}
                 </div>
                 <button className="button">{card.btn}</button>
@@ -49,6 +60,6 @@ const Cards = () => {
       })}
     </div>
   );
-}
+};
 
-export default Cards
+export default Cards;

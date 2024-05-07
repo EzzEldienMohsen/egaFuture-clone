@@ -119,7 +119,7 @@ export const gridElements = [
   'Alquileres y préstmos de stock',
   'Facturas de venta',
   'Formatos de factuas y tickets configurable',
-  'Facturación de serviios',
+  'Facturación de servicios',
 ];
 export const gridCheckMark =
   'https://assets-global.website-files.com/575edfeea4bf5b9f21de5618/575edfeea4bf5b9f21de56ae_Icon-check-green.png';
