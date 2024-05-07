@@ -94,8 +94,8 @@ background-image: linear-gradient(135deg,rgba(0,118,179,.84),transparent 71%);
     box-shadow: 0 0 24px rgba(0, 0, 0, .24);
 }
 .fCard{
-  background-image: (160deg,rgba(255,255,255,.98) 36%,rgba(255,255,255,.5) 77%)
-}
+background-image: linear-gradient(160deg,rgba(255,255,255,.98) 36%,rgba(255,255,255,.5) 77%);
+background-color: rgb(30, 175, 100);}
 .sCard{
 background-image: linear-gradient(160deg,rgba(255,255,255,.98) 36%,rgba(255,255,255,.5) 77%);
 }
@@ -103,4 +103,56 @@ background-image: linear-gradient(160deg,rgba(255,255,255,.98) 36%,rgba(255,255,
 background-image: linear-gradient(160deg,rgba(255,255,255,.98) 36%,rgba(255,255,255,.5) 77%);}
 .siCard{
 background-image: linear-gradient(160deg,rgba(255,255,255,.98) 36%,rgba(255,255,255,.5) 77%);
+}
+
+.firstCard{
+      background-image: url("https://assets-global.website-files.com/575ef60509a5a7a9116d9f8c/604a4acbab5f699f69572200_EGA%20Futura%20Habitat%20512.png");
+    background-color: #abddde;
+    border-color: #1eaf64;
+        background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: 180px;
+    border-top: 5px solid rgba(0, 0, 0, .6);
+}
+.firstCardTitle{
+  background-color: #ffd000;
+}
+.secondCard{
+    background-image: url("https://assets-global.website-files.com/575ef60509a5a7a9116d9f8c/604a846c8b5cab90b0cf05d6_EGA%20Futura%20512.png");
+    background-color: #144c77;
+    border-color: #008bc9;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: 180px;
+    border-top: 5px solid rgba(0, 0, 0, .6);
+}
+.secondCardTitle{
+  background-color:#46C438;
+}
+.fourthCard{
+    background-image: url("https://assets-global.website-files.com/575ef60509a5a7a9116d9f8c/604a8441557440d323ca230b_EGA%20Futura%20Base%20de%20datos%20512.png");
+    background-color: #a3d5df;
+    border-color: #48a1b1;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: 180px;
+    border-top: 5px solid rgba(0, 0, 0, .6);
+}
+.fourthCardTitle{
+  background-color: #ffd000;
+}
+.fifthCardTitle{
+  background-color: #e63f17;
+}
+.sixthCard{
+    background-image: url("https://assets-global.website-files.com/575ef60509a5a7a9116d9f8c/604a7ed30089793daee82291_EGA%20Futura%20Inventory%20512.png");
+    background-color: #26b7d4;
+    border-color: #26b7d4;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: 180px;
+    border-top: 5px solid rgba(0, 0, 0, .6);
+}
+.sixthCardTitle{
+  background-color: #ee7320;
 }
