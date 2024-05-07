@@ -17,11 +17,11 @@ const Cards = () => {
               className={`${card.hiddenDiv} absolute bottom-0 left-0 w-full flex flex-col justify-between items-center `}
             >
               <div
-                className={`${card.titleDiv} text-center font-lato text-md md:text-lg lg:text-xl text-white font-normal tracking-wide w-full py-2 `}
+                className={`${card.titleDiv} text-center font-lato text-md md:text-lg lg:text-xl text-white font-normal tracking-wide w-full py-2  `}
               >
                 {card.title}
               </div>
-              <div className="text-black text-sm md:text-md lg:text-lg font-lato font-light mt-2 mb-4">
+              <div className="text-black px-4 text-sm md:text-md lg:text-lg font-lato font-light mt-2 mb-4">
                 {card.text}
               </div>
               <motion.div
@@ -30,12 +30,10 @@ const Cards = () => {
                 whileHover={hiddenPara.final}
                 className="flex flex-col justify-between items-center relative w-full h-[300px]"
               >
-                <div className="text-black text-xs md:text-sm lg:text-md font-lato font-thin">
+                <div className="text-black px-4 text-xs md:text-sm lg:text-md font-lato font-thin">
                   {card.hText}
                 </div>
-                <button className="button">
-                  {card.btn}
-                </button>
+                <button className="button">{card.btn}</button>
               </motion.div>
               <motion.div
                 variants={yearVariant}
