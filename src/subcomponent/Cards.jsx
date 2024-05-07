@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { cards, longDiv } from '../assets';
+import { cards, hiddenPara, longDiv, yearVariant } from '../assets';
 
 const Cards = () => {
   return (
@@ -8,15 +8,43 @@ const Cards = () => {
         return (
           <div
             key={card.id}
-            className={`${card.div} h-[420px] relative `}
+            className={`${card.div} h-[420px] w-full md:w-auto relative my-6 md:my-0`}
           >
             <motion.div
               variants={longDiv}
               initial={longDiv.initial}
               whileHover={longDiv.hover}
-              className={`${card.hiddenDiv} absolute bottom-0 left-0 w-full`}
+              className={`${card.hiddenDiv} absolute bottom-0 left-0 w-full flex flex-col justify-between items-center `}
             >
-              hhhhhhh
+              <div
+                className={`${card.titleDiv} text-center font-lato text-md md:text-lg lg:text-xl text-white font-normal tracking-wide w-full py-2 `}
+              >
+                {card.title}
+              </div>
+              <div className="text-black text-sm md:text-md lg:text-lg font-lato font-light mt-2 mb-4">
+                {card.text}
+              </div>
+              <motion.div
+                variants={hiddenPara}
+                initial={hiddenPara.initial}
+                whileHover={hiddenPara.final}
+                className="flex flex-col justify-between items-center relative w-full h-[300px]"
+              >
+                <div className="text-black text-xs md:text-sm lg:text-md font-lato font-thin">
+                  {card.hText}
+                </div>
+                <button className="button">
+                  {card.btn}
+                </button>
+              </motion.div>
+              <motion.div
+                variants={yearVariant}
+                initial={yearVariant.initial}
+                whileHover={yearVariant.final}
+                className={`text-[#ffffffba] ${card.yearColor} w-full py-2 text-center font-lato text-md md:text-lg lg:text-xl`}
+              >
+                {card.year}
+              </motion.div>
             </motion.div>
           </div>
         );

@@ -76,50 +76,50 @@ export const rows = [
 ];
 
 export const gridElements = [
-  'Aumenta la productividad de tu negocio con un sistema de gestión comercial fácil de usar,y con toda la funcionalidad que necesitas para potenciar tu éxito',
-  'Descuentos y recargos (manuales y automáticos)',
-  'Emisión de Cotizaciones y Presupuestos',
+  'Amenta la productividad de tu negocio con un sistema de gestión comercial fácil de usar,y con toda la funcionalidad que necesitas para potenciar tu éxito',
+  'Decuentos y recargos (manuales y automáticos)',
+  'Emiión de Cotizaciones y Presupuestos',
   'Múltiples listas de precios',
-  'Notas de crédito',
-  'Soporte para lectores de códigos de barra',
+  'Nots de crédito',
+  'Sopote para lectores de códigos de barra',
   'Catálogo de imágenes',
-  'Notas de débito',
-  'Precios en diferentes monedas (multi-monetario)',
-  'Impresión de etiquetas de código de barras',
-  'Remitos, notas de remisión, notas de envío, despacho, remisión, salida de almacén y albarán',
+  'Notas e débito',
+  'Precios e diferentes monedas (multi-monetario)',
+  'Impresión de etquetas de código de barras',
+  'Remitos, notas de rmisión, notas de envío, despacho, remisión, salida de almacén y albarán',
   'Actualizaciones de precios por diferentes factores',
   'CRM y gestión de clientes y proveedores',
   'Integración con MercadoLibre.com ($)',
-  'Gestión de productos compuestos',
+  'Gestión de productos comuestos',
   'Envíos de correos electrónicos',
-  'Gestión de Combos y Fabricación (Kits)',
+  'Gestión de Combos y Faricación (Kits)',
   'Ordenes de Trabajo, Servicio Técnico y Reparación',
-  'Administración de Vendedores',
-  'Administración de Talle y Color',
-  'Cuentas corrientes de clientes (gestión de créditos)',
-  'Gestión de cajeros y perfiles de venta',
-  'Comisiones por venta',
-  'Administración de Talle y Color',
-  'Cuentas corrientes de clientes (gestión de créditos)',
-  'Gestión de cajeros y perfiles de venta',
-  'Importación y actualización de precios desde Excel',
-  'Cuentas corrientes de proveedores (gestión de deudas)',
+  'Administración de Vndedores',
+  'Administración de Tale y Color',
+  'Cuentas corrientes de clentes (gestión de créditos)',
+  'Gestión de cajeros y periles de venta',
+  'Comisiones por veta',
+  'Administración de Tal y Color',
+  'Cuentas corrintes de clientes (gestión de créditos)',
+  'Gestión de cajros y perfiles de venta',
+  'Importación y actulización de precios desde Excel',
+  'Cuentas corrientes de proeedores (gestión de deudas)',
   'Niveles de seguridad por claves',
-  'Soporte para pantalla táctil (touchscreen)',
-  'Gestión de rubros y familias de productos',
+  'Soporte para pantala táctil (touchscreen)',
+  'Gestión de rubros  familias de productos',
   'Gestión de pagos y movimientos',
-  'Soporte de Impresoras Fiscales y Facturación Electrónica',
-  'Ilimitadas tasas de IVA',
-  'Reportes e Informes de todo tipo',
-  'Administración de ofertas y promociones',
-  'Órdenes de compra',
-  'Funcionamiento en redes',
-  'Facturación por Kilos, Litros y otras unidades de medida',
+  'Soporte de Impresoras Fscales y Facturación Electrónica',
+  'Ilimitadas tasas de IA',
+  'Reportes e Infores de todo tipo',
+  'Administracón de ofertas y promociones',
+  'Órdenes de copra',
+  'Funcionmiento en redes',
+  'Facturación pr Kilos, Litros y otras unidades de medida',
   'Facturas de compras',
-  'Alquileres y préstamos de stock',
+  'Alquileres y préstmos de stock',
   'Facturas de venta',
-  'Formatos de facturas y tickets configurable',
-  'Facturación de servicios',
+  'Formatos de factuas y tickets configurable',
+  'Facturación de serviios',
 ];
 export const gridCheckMark =
   'https://assets-global.website-files.com/575edfeea4bf5b9f21de5618/575edfeea4bf5b9f21de56ae_Icon-check-green.png';
@@ -164,7 +164,7 @@ export const arrFooter = [
 export const cards = [
   {
     id: 1,
-
+    yearColor: 'fYear',
     title: 'Nivel Intermedio',
     text: 'Cómo funcionan las notificaciones en la campana de notificaciones?',
     hText:
@@ -177,7 +177,7 @@ export const cards = [
   },
   {
     id: 2,
-
+    yearColor: 'sYear',
     title: 'Nivel Introductorio',
     text: 'Cómo funciona el motor de búsqueda global de la Plataforma EGA Futura?',
     hText:
@@ -190,6 +190,7 @@ export const cards = [
   },
   {
     id: 3,
+    yearColor: 'sYear',
     title: 'Nivel Introductorio',
     text: 'Qué es la Plataforma EGA Futura?',
     hText:
@@ -202,11 +203,12 @@ export const cards = [
   },
   {
     id: 4,
+    yearColor: 'foYear',
     title: 'Nivel Introductorio',
     text: 'Cómo se organiza la Base de datos en EGA Futura? Qué son los Objetos, Registros y Campos?',
     hText:
       'En este tutorial vas a aprender cómo se organiza, se almacena y se organiza la información dentro de la Plataforma EGA Futura, y cuáles son sus principales componentes (Organización, Aplicación, Objeto, Campo y Registro).',
-    year: '2023',
+    year: '2021',
     btn: 'Ver tutorial',
     hiddenDiv: 'foCard',
     div: 'fourthCard',
@@ -214,11 +216,12 @@ export const cards = [
   },
   {
     id: 5,
+    yearColor: 'foYear',
     title: 'Nivel Experto',
     text: 'Cómo importar información a EGA Futura?',
     hText:
       'Aprende como importar información a la base de datos en la nube de EGA Futura',
-    year: '2023',
+    year: '2021',
     btn: 'Ver tutorial',
     hiddenDiv: 'foCard',
     div: 'fourthCard',
@@ -226,11 +229,12 @@ export const cards = [
   },
   {
     id: 6,
+    yearColor: 'siYear',
     title: 'Nivel Avanzado',
     text: 'Cómo crear un Pedido paso a paso desde cero en EGA Futura?',
     hText:
       'Cómo crear un pedido desde cero y conocer todos los elementos involucrados, saber cómo funciona cada campo y las relaciones con Listas de precios, Productos, Divisas, etc.',
-    year: '2023',
+    year: '2021',
     btn: 'Ver tutorial',
     hiddenDiv: 'siCard',
     div: 'sixthCard',
@@ -239,10 +243,10 @@ export const cards = [
 ];
 export const longDiv = {
   initial: {
-    height: '57%',
+    height: '60%',
   },
   hover: {
-    height: '90%',
+    height: '95%',
     transition: {
       duration: 0.5,
       ease: 'easeInOut',
@@ -251,7 +255,7 @@ export const longDiv = {
 };
 
 export const hiddenPara = {
-  inital: {
+  initial: {
     opacity: 0,
     y: 200,
   },
@@ -265,11 +269,11 @@ export const hiddenPara = {
   },
 };
 export const yearVariant = {
-  inital: {
+  initial: {
     opacity: 1,
   },
   final: {
-    opacity: 1,
+    opacity: 0,
     transition: {
       duration: 0.5,
       ease: 'easeInOut',
