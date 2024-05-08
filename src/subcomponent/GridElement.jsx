@@ -11,7 +11,7 @@ const GridElement = () => {
         comercial fácil de usar, y con toda la funcionalidad que necesitas para
         potenciar tu éxito
       </p>
-      <div className="my-4 md:my-6 flex flex-col justify-start items-start md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-2">
+      <div className="my-4 md:my-6 flex flex-col justify-start items-start px-3 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-2">
         {gridElements.map((e) => {
           return (
             <div key={e} className="flex  items-center">
