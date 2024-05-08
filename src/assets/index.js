@@ -168,7 +168,7 @@ export const cards = [
     title: 'Nivel Intermedio',
     text: 'Cómo funcionan las notificaciones en la campana de notificaciones?',
     hText:
-      'En este tutorial aprenderás todo sobre la funcionalidad de la campana o notification bell, el panel de notificaciones que aparece debajo de dicho botón y tarjetas emergentes.',
+      'En este tutorial aprenderás todo sobre la funcionalidad de la campana o ',
     year: '2023',
     btn: 'Ver tutorial',
     hiddenDiv: 'fCard',
@@ -206,8 +206,7 @@ export const cards = [
     yearColor: 'foYear',
     title: 'Nivel Introductorio',
     text: 'Cómo se organiza la Base de datos en EGA Futura? Qué son los Objetos, Registros y Campos?',
-    hText:
-      'En este tutorial vas a aprender cómo se organiza, se almacena y se organiza la información dentro de la Plataforma EGA Futura, y cuáles son sus principales componentes (Organización, Aplicación, Objeto, Campo y Registro).',
+    hText: 'En este tutorial vas a aprender cómo se organiza, .',
     year: '2021',
     btn: 'Ver tutorial',
     hiddenDiv: 'foCard',
