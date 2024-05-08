@@ -256,11 +256,11 @@ export const longDiv = {
 export const hiddenPara = {
   initial: {
     opacity: 0,
-    y: 200,
+    display: "none",
   },
   final: {
     opacity: 1,
-    y: 0,
+    display: "flex",
     transition: {
       duration: 0.5,
       ease: 'easeInOut',
