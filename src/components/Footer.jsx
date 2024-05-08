@@ -1,8 +1,13 @@
+import { FooterLast, FooterLogo } from "../subcomponent";
+
 
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
+    <>
+      <FooterLogo />
+     <FooterLast/>
+    </>
+  );
 }
 
 export default Footer
